@@ -19,7 +19,7 @@ function App() {
       style={{ minHeight: "100vh" }}
     >
       <div className="w-100" style={{ maxWidth: "400px" }}>
-        <Router>
+        <Router basename="/firebase-auth-dev">
           <AuthProvider>
             <Routes>
               <Route path="/" element={<Homepage />} />
